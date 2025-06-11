@@ -1,0 +1,8 @@
+name 'pd_openport'
+maintainer 'Phil Dibowitz'
+maintainer_email 'phil@ipom.com'
+license 'Apache-2.0'
+description 'Installs/Configures openport'
+version '0.1.0'
+depends 'fb_helpers'
+depends 'fb_systemd'
