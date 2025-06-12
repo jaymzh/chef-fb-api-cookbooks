@@ -55,6 +55,10 @@ jobs:
       with:
         project: chef-workstation
         version: 25.2.1075
+    - name: grab kitchen configs
+      run: |
+        sudo apt install -y wget
+        wget -O ./chef-fb-api-cookbooks/.kitchen.yml https://raw.githubusercontent.com/facebook/chef-cookbooks/refs/heads/main/.kitchen.yml
     - name: Run Kitchen
       uses: actionshub/test-kitchen@main
       with:
