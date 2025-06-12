@@ -1,0 +1,9 @@
+# This file is controlled by Chef, do not modify!
+<%
+  if @instance === 'global'
+    opts = node['pd_openport']['config']['options']
+  else
+    opts = node['pd_openport']['config']['sessions'][@instance]['options']
+  end
+%>
+OPTIONS="<%= opts.join(' ') %>"
