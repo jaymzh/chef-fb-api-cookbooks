@@ -2,6 +2,7 @@ Phil's FB API Style Cookbooks Suite
 ========================
 
 [![Continuous Integration](https://github.com/jaymzh/chef-fb-api-cookbooks/actions/workflows/ci.yml/badge.svg)](https://github.com/jaymzh/chef-fb-api-cookbooks/actions/workflows/ci.yml)
+[![Kitchen Tests](https://github.com/jaymzh/chef-fb-api-cookbooks/actions/workflows/kitchen.yml/badge.svg)](https://github.com/jaymzh/chef-fb-api-cookbooks/actions/workflows/kitchen.yml)
 
 This repo contains attribute-driven-API cookbooks that follow the [Meta/FB
 API](https://github.com/facebook/chef-cookbooks) model, but are not maintained
