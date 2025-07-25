@@ -13,7 +13,9 @@ consistent code quality and style for all.
 Contributor License Agreement ("CLA")
 -------------------------------------
 
-In leiu of a CLA, we use Chef's [DCO](https://www.chef.io/blog/introducing-developer-certificate-of-origin) system (which is based on the Linux Kernel DCO system).
+In leiu of a CLA, we use Chef's
+[DCO](https://www.chef.io/blog/introducing-developer-certificate-of-origin)
+system (which is based on the Linux Kernel DCO system).
 
 Pre-requisites
 --------------
@@ -25,8 +27,11 @@ attribute-driven APIs here are a very different model than other community
 cookbooks. In order to build that model, there's a specific way cookbooks need
 to be written.
 
-We highly recommend you ensure you read the upstream [README.md](https://github.com/facebook/chef-cookbooks/blob/main/README.md) and
-[Philosphy.md](https://github.com/facebook/chef-utils/blob/main/Philosophy.md) as well as their [CONTRIBUTING.md](https://github.com/facebook/chef-utils/blob/main/CONTRIBUTING.md)
+We highly recommend you ensure you read the upstream
+[README.md](https://github.com/facebook/chef-cookbooks/blob/main/README.md) and
+[Philosphy.md](https://github.com/facebook/chef-utils/blob/main/Philosophy.md)
+as well as their
+[CONTRIBUTING.md](https://github.com/facebook/chef-utils/blob/main/CONTRIBUTING.md)
 
 License
 -------
